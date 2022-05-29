@@ -1,4 +1,4 @@
-package day16_notations;
+package tests.day16_notations;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -41,6 +41,8 @@ public class C07 extends TestBase {
         softAssert.assertEquals(secilenOption,expectedOption,"secilen option uygun degil");
         // 10. soft assert kullanarak DropDown listesinin su secenekleri oldugunu test edin "Select One", "Australia (dollar)", "Canada (dollar)","Switzerland (franc)","China (yuan)","Denmark (krone)","Eurozone (euro)","Great Britain (pound)","Hong Kong (dollar)","Japan (yen)","Mexico (peso)","Norway (krone)","New Zealand (dollar)","Sweden (krona)","Singapore (dollar)","Thailand (baht)"
         List<WebElement> optionList= select.getOptions();
+
+
 
 
 
