@@ -6,7 +6,7 @@ import pages.FaceBookPage;
 import utilities.Driver;
 
 public class C03_PageClassKullanimi {
-    @Test
+    @Test(groups = {"grup1", "grup2"})
     public void test01() {
         FaceBookPage fbPage = new FaceBookPage();
         //Facebook a gidek

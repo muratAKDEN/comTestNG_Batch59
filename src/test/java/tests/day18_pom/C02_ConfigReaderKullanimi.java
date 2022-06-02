@@ -7,7 +7,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class C02_ConfigReaderKullanimi {
-    @Test
+    @Test(groups = "grup2")
     public void test01() {
         FaceBookPage fb = new FaceBookPage();
 

@@ -37,7 +37,7 @@ public class C04_DependsOnMethods {
     @Test
     public void test1() {
         // amazon a gidek
-        driver.get("https://www.asdamazon.com");
+        driver.get("https://www.amazon.com");
 
 
     }
