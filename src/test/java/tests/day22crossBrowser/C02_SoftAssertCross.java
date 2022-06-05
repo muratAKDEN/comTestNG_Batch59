@@ -22,7 +22,7 @@ public class C02_SoftAssertCross extends TestBaseCross {
         //1-amazon ana sayfaya gidin
         driver.get("https://amazon.com");
 //2-title in Amazon icerdigini test edin
-        sft.assertTrue(driver.getTitle().contains("ASDFAmazon"),"baslik amazon icermiyor");
+        sft.assertTrue(driver.getTitle().contains("Amazon"),"baslik amazon icermiyor");
 //3-arama kutusnun erisilebilir oldugunu test edin
         WebElement aramaKutusu = driver.findElement(By.id("twotabsearchtextbox"));
         sft.assertTrue(aramaKutusu.isEnabled(),"arama kutusuna erisilemiyor");
@@ -32,7 +32,7 @@ public class C02_SoftAssertCross extends TestBaseCross {
         WebElement sonucYaziElementi = driver.findElement(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']"));
         sft.assertTrue(sonucYaziElementi.isDisplayed(),"yazi elementi gorunmuyor");
         // 6- arama sonucunun Kutella icerdigini test edin
-        sft.assertTrue(sonucYaziElementi.getText().contains("Kutella"),"arama sonucu kutella icermiyor");
+        sft.assertTrue(sonucYaziElementi.getText().contains("Nutella"),"arama sonucu kutella icermiyor");
 
 
         // softassert'e bitis satirini soylemek icin assertAll() kullanilir
